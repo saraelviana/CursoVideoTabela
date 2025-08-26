@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELA GRANDEt</title>
+</head>
+<style>
+    body{
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    table{
+        width: 500px;
+        border-collapse: collapse;
+    }
+    th,td {/*separa por virgula da os 2*/
+        border: 1px solid black;
+
+    }
+    
+    thead, tfoot{
+       background-color: rgb(10, 10, 10);
+       color: white;
+
+    }
+    td.num{
+        text-align: center;
+
+    }
+
+
+
+</style>
+<body>
+    <!-- TABELA GRANDE
+    * table = tabela
+    ** thead = corpo da tabela
+               - tr - td - th
+    *** tbody = corpo da tabela
+               - tr - td - th
+    **** tfoot = rodape da tabela
+               - tr - td - th
+    
+    -->
+
+
+    <TAble>
+        <thead><!-- a cabeça da tabela-->
+            <tr>
+                <th>estado</th>
+                <th>população</th>
+
+            </tr>
+           
+        </thead>
+        <tbody><!-- no corpo a tabela-->
+            <tr>
+                <td>sao paulo</td>
+                <td class="num">45 25 45</td>
+            </tr>
+            <tr>
+                <td>manaus</td>
+                <td class="num">85 45</td>
+            </tr>
+            <tr>
+                <td>rio preto</td>
+                <td  class="num">12 14</td>
+            </tr>
+
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>total de habitantes</th><!--este e um titulo -->
+                <td><strong>0000000</strong></td><!-- td e um dado nao esquece-->
+            </tr>
+
+
+        </tfoot>
+    </TAble>
+    
+</body>
+</html>
